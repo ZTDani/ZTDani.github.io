@@ -1,0 +1,451 @@
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ellie's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+      
+    <style>
+        body{
+            background-color: #36575E;
+            color: #F2D0A5;
+        font-family: "Livvic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+            
+        }
+        
+        .navbar {
+            background-color: #243f56;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+        }
+        .navbar-toggler {
+            background-color:#9EDBB9;
+            border: 1px solid #333;
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(20, 26, 73, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+        .name {
+            color: white;
+        }
+        logo img{
+            width:20px;
+            margin-top:10px;
+        }
+        .main{
+            margin-top: 40px;
+        }  
+        
+        
+        h3{
+           padding-top: 10px; 
+        }
+        img {
+            width:100%;
+        }
+        
+        #preview {
+          
+        }
+        
+        #animations{
+            background-color:#FD894F;
+            
+            padding:20px 0px;
+        }
+        .mainb {
+            
+        }
+        .boxbi{
+    
+            padding:20px;
+            flex:2;
+        }
+                .boxbi row col-6{
+                        margin:30px 0px;
+                    }
+        .boxbii{
+            background-color:chocolate;
+            padding:0px 30px 0px 20px;
+            flex:1;
+        }
+        #drawings{   
+            background-color:#243f56;
+            color:floralwhite;
+            padding:20px 0px;
+        }
+        .mainc {
+            background-color:violet;
+        }
+        .boxci{
+            background-color:cadetblue;
+            padding:0px 30px 10px 20px;
+            flex:1;
+        }
+        .boxcii{
+            background-color:darkorange;
+            flex:2;
+        }
+        
+        #digital{
+            background-color:#141A49;
+            color:#FD894F;
+            padding:20px 0px;
+        }
+        #digital h3{
+            text-align:right;
+        }
+        .col-sm-4 {
+
+        }
+        
+        #about{
+            background-color:cadetblue;
+            padding:20px 0px;
+            color:#141A49;
+        }
+        
+        main {
+            padding:20px 10px;
+            margin: 0px 0px;
+        
+        }
+        .box1{
+            padding:10px 0px;
+            flex:1;
+            
+        } 
+        .box1 li{
+            list-style-type: none;
+        }
+        .box1 img{
+            width:20px;
+        }
+        .box2{
+            padding:30px 50px;
+            flex:1;
+            background-color:#36575E;
+        } 
+        
+        #contact{
+            background-color:#9EDBB9;
+            font-size:16px;
+            padding: 30px 0px;
+            text-align:center;
+            color:141A49;
+          }
+        #contact a{
+              color:#F2E8C8;
+              text-decoration:none;
+          }
+        #contact img{
+              width:14px;
+          }
+        
+        .container {
+            max-width: 1400px;
+            margin: auto;
+        }
+        
+        footer{
+            padding:30px 30px;
+            background-color:#243f56;
+            color: #F2D0A5;
+        }   
+        footer a {
+            color:floralwhite;
+        }
+        footer h6{
+        text-align:center;
+        }
+        
+            @media only screen and (min-width: 992px) {
+                body{
+                     
+                }
+                #loops{
+                    
+                }
+                .mainb {
+                   display:flex; 
+                }
+                .boxbi row{
+                    margin:10px;
+                    
+                }
+                .mainc {
+                   display:flex; 
+                }
+                #digital h3{
+            padding:0 20px;
+        }
+               
+                main{
+                    display:flex; 
+                }
+                #about h3{
+                    padding:0 20px;
+                }
+                .box1{
+                    padding:40px 10px; 
+                }
+                .box2{
+                padding:20px 20px;
+        } 
+                #about img{
+
+                    
+                }
+                .container {
+                
+                }
+                footer {
+
+                }        
+            }
+          
+      </style>
+  </head>
+<body>
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-0 px-4 px-lg-5">
+        <div class="container">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <div class="name"><h2 class="m-0">Ellie Zurita Torres</h2></div>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-4 py-lg-0">
+                <a href="#about" class="nav-item nav-link">About</a>
+                
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-displa="static">Projects</a>
+                <div class="position-relative">
+                <div class="dropdown-menu shadow-sm m-0">
+                    <a href="#animations" class="dropdown-item">Animations</a>
+                    <a href="#drawings" class="dropdown-item">Drawings</a>
+                    <a href="#digital" class="dropdown-item">Other</a>
+                </div>
+                </div>
+                </div>
+                
+                <a href="#contact" class="nav-item nav-link">Contacts</a>
+            <logo>
+                <a href="https://www.instagram.com/x.dazelii.x/"><img src="gram_logo_white.png"></a>
+                <a href="https://www.linkedin.com/in/danielly-zurita-torres-506262301"><img src="in_white.png"></a>
+            </logo>
+            </div>
+        </div>
+        </div>
+    </nav>
+</header>
+    
+<div class="main">
+<a name="top"></a>
+    
+<section id="preview">
+    <div class="container">
+    <img src="bgf.png">
+    </div>
+</section>
+    
+<section id="animations">
+    <div class="container">
+        <div class="mainb">
+            <div class="boxbi">
+                
+            <div class="row">
+                <div class="col-6 col-lg-4">
+                    <a href="rotoscope.mp4" data-fancybox="gallery1" data-caption="Rotoscope">
+                    <img src="rotoscopetb.png"/>
+                    </a>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <a href="macaroni.mp4" data-fancybox="gallery1" data-caption="Macaroni!">
+                    <img src="macaronitb.png"/>
+                    </a>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <a href="snowman.mp4" data-fancybox="gallery1" data-caption="No kitty!">
+                    <img src="snowmantb.png"/>
+                    </a>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <a href="skykidloop.gif" data-fancybox="gallery1" data-caption="Sky Kid Loop">
+                    <img src="skykidtb.png"/>
+                    </a>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <a href="pigeon_loop.gif" data-fancybox="gallery1" data-caption="Pigeon Flying Loop">
+                    <img src="pigeontb.png"/>
+                    </a>
+                </div>
+                <div class="col-6 col-lg-4">
+                    <a href="eggs.gif" data-fancybox="gallery1" data-caption="Boiling Eggs Loop">
+                    <img src="eggstb.png"/>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+            <div class="boxbii">
+                <h3>Animations</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            </div>
+        </div>
+    </div>
+</section>
+   
+<section id="drawings">
+    <div class="container">
+        <div class="mainc">
+            <div class="boxci">
+                <h3>Drawings</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="boxcii">
+              
+               <div id="carouselExampleDark" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="cross_hatch.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Cross-Hatched Pepper</h5>
+                        <p>Media: Charcoal and Micron Pens</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="oh_deer.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Oh Deer!</h5>
+                        <p>Media: Charcoal</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="people.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Model and Self Portrait</h5>
+                        <p>Medium: Charcoal and Charcoal pencils</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="hands.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Plant Guy Walking</h5>
+                        <p>Medium: Pencil</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<section id="digital">
+    <div class="container">
+        <h3>Other Digital Work</h3>
+        <div class="row">
+                <div class="col-6 col-lg-3">
+                     <img src="can.png">
+                        
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img src="spear.png">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img src="vejigante_model.png">
+                </div>
+                <div class="col-6 col-lg-3">
+                    <img src="memphis.png">
+                </div>     
+        </div>
+    </div>
+</section>
+    
+<section id="about">
+    <div class="container">
+        <h3>About Me</h3>
+        <main>
+            <article class="box1">
+                <p> Hi, I am Ellie Zurita Torres and I'm a student at Mercy University studying Design and Animation. I have been a student there for 3 years and have taken a handful of classes centered to develop my skills. I have worked on various Design projects and made a few animation tests.
+                <p>I've also worked on learning more 3D modeling during my free time. And occasionally I make traditional art out of acrylic or watercolor paints.</p>
+                <p>I'm excited to work on more projects in the future. </p>
+                <br>
+            <h7> Adobe programs I am familiar with:</h7>
+            <ul>
+                <li><img src="A_P.png">  Photoshop</li>
+                <li><img src="A_I.png"> Illustrator</li>
+                <li><img src="A_IN.png"> Indesign</li>
+                <li><img src="A_A.png"> Animate</li>
+                <li><img src="A_AE.png"> After Effects</li>
+                <li><img src="A_PP.png"> Premiere Pro</li>
+            </ul>
+            </article>
+            <article class="box2">
+                <img src="ellie_bio_img.png">
+            </article>
+        </main>
+    </div>
+</section>
+      
+<section id="contact">
+    <h4> Contact</h4>
+    <br>
+    <p>Email:<br>dmz.torres@gmail.com at gmail</p>
+    <p><img src="gram_logo_white.png"> Instagram: <a href="https://www.instagram.com/x.dazelii.x/">x.dazelii.x</a></p>
+    <p><img src="in_white.png"> LinkedIn: <a href="https://www.linkedin.com/in/danielly-zurita-torres-506262301">Click here</a></p>
+</section>
+    
+<footer>
+    <div class="container">
+        <h6><a href="#top">Back to Top</a></h6>
+        <br>
+        Ellie Torres © 2024
+    </div>
+</footer>
+<div>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+        });
+
+    </script>
+</div>  
+</div>      
+  </body>
+</html>
